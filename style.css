@@ -1,0 +1,55 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #fffaf0;
+  color: #5e4b56;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f9dce2;
+  text-align: center;
+  padding: 30px 10px;
+  border-bottom: 4px dashed #d69cb8;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #a14a6c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 40px;
+  background-color: #fffdf9;
+  border: 2px dotted #e3b5c6;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.gallery img {
+  width: 45%;
+  border-radius: 8px;
+  border: 2px solid #f3c1d8;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+  color: #999;
+}
